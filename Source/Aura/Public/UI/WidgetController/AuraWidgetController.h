@@ -48,15 +48,15 @@ public:
 	
 protected:
 	
-	UPROPERTY(BlueprintReadOnly, Category="WidgetController");
+	UPROPERTY(BlueprintReadOnly, Category="WidgetController")
 	TObjectPtr<APlayerController> PlayerController;
 	
-	UPROPERTY(BlueprintReadOnly, Category="WidgetController");
+	UPROPERTY(BlueprintReadOnly, Category="WidgetController")
 	TObjectPtr<APlayerState> PlayerState;
 	
-	UPROPERTY(BlueprintReadOnly, Category="WidgetController");
+	UPROPERTY(BlueprintReadOnly, Category="WidgetController")
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;
 	
-	UPROPERTY(BlueprintReadOnly, Category="WidgetController");
+	UPROPERTY(BlueprintReadOnly, Category="WidgetController")
 	TObjectPtr<UAttributeSet> AttributeSet;
 };
